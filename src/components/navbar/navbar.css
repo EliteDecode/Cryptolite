@@ -1,0 +1,30 @@
+.navbar .container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .logo {
+  border-bottom: 2px solid #1a1a40;
+} */
+
+/* .link {
+  border-bottom: 2px solid #1a1a40;
+} */
+
+.link .dark {
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #92b4ec;
+  color: #1a1a40;
+  transition: 0.3s ease all;
+  border-bottom: 1px solid #fff;
+}
+
+.link :active {
+  background-color: #fff;
+  color: #92b4ec;
+  transition: 0.3s ease all;
+  border-bottom: 1px solid #fff;
+}
